@@ -1,0 +1,73 @@
+.add-student-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.add-student-btn:hover {
+    background-color: #45a049;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.student-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.edit-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.student-details {
+    margin-top: 20px;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details-table th, .details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.details-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.modal {
+    width: 50%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
